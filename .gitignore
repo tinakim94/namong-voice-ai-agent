@@ -1,0 +1,34 @@
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environments
+.venv/
+.venv-tts/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*token*
+*secret*
+*.pem
+*.key
+
+# Local AI models
+stt/
+*.onnx
+*.bin
+*.gguf
+
+# Recorded audio
+*.wav
+*.mp3
+
+# Temporary files
+temp/
+tmp/
+*.log
